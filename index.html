@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParaFarmacia dott.ssa D'Anna</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+<body>
+  <div class="contenitore">
+<header>
+       <!-- menu -->
+    <nav class="menu">
+<a class="logo" href="index.html"><img class="para animate__animated animate__rotateIn" src="img/para.png" width="95px" height="95px"></a>
+<div id="list">
+ <a href="#home"><div class="sezione animate__animated animate__fadeInRight  ">HOME</div></a> 
+  <a href="#chisiamo"><div class="sezione animate__animated animate__fadeInRight">CHI SIAMO</div></a>
+  <a href="#servizi"><div class="sezione animate__animated animate__fadeInRight">SERVIZI</div></a>
+  <a href="#prodotti"><div class="sezione animate__animated animate__fadeInRight">PRODOTTI</div></a>
+  <a href="#contatti"><div class="sezione animate__animated animate__fadeInRight ">CONTATTI</div></a>
+
+  <img src="img/menu.png" id="iconmenu" alt="" onclick="menumobile()">
+</div>
+    </nav>
+    <div id="mobile_menu">
+      <div id="list_mobile">
+        <a href="#home" ><div class="sezione_mobile" onclick="menumobile()">HOME</div></a> 
+         <a href="#chisiamo"><div class="sezione_mobile" onclick="menumobile()">CHI SIAMO</div></a>
+         <a href="#servizi"><div class="sezione_mobile" onclick="menumobile()">SERVIZI</div></a>
+         <a href="#prodotti"><div class="sezione_mobile" onclick="menumobile()">PRODOTTI</div></a>
+         <a href="#contatti"><div class="sezione_mobile" onclick="menumobile()">CONTATTI</div></a>
+        </div>
+    </div>
+    <!-- slider -->
+    <a name="home" >
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/interno.jpg" class="d-block w-100 opacity" alt="..." height="850">    
+          <div class="logopara animate__animated animate__backInDown"><img id="para-back" src="img/LOGOPARA.png" alt=""> </div>  
+          <div class="carousel-caption d-md-block"  data-aos="fade-up">
+                 
+            <h1 class="gradient animate__animated animate__pulse">PROFESSIONALITÀ</h1>
+            <p class="test test1">La nostra missione è prenderci cura della salute dei clienti con l'obiettivo di essere al servizio con professionalità, dedizione, gentilezza e cortesia
+                 </p>
+                   <button class="contact animate__animated animate__tada animate__infinite">CONTATTACI</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/interno2.jpg" class="d-block w-100 opacity" alt="..." height="850">
+          <div class="logopara animate__animated animate__backInDown"><img id="para-back" src="img/LOGOPARA.png" alt=""  > </div> 
+          <div class="carousel-caption  d-md-block" data-aos="fade-up">
+            
+            <h1 class="gradient  animate__animated animate__pulse">AFFIDABILITÀ</h1>
+            <p class="test test1">Avrai a tua disposizione un farmacista chhe affrirà le sue competenze per una consulenza personalizzata al fine di migliorare la saliute e il benessere del cliente
+                  </p>
+                   <button class="contact animate__animated animate__tada animate__infinite">CONTATTACI</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/interno3.jpg" class="d-block w-100 opacity" alt="..." height="850">
+          <div class="logopara animate__animated animate__backInDown"><img id="para-back"  src="img/LOGOPARA.png" alt="" > </div>
+          <div class="carousel-caption  d-md-block" data-aos="fade-up">
+
+            <h1 class="gradient  animate__animated animate__pulse"> GENTILEZZA</h1>
+            <p class="test test1"> 
+                 </p>
+                   <button class="contact animate__animated animate__tada animate__infinite">CONTATTACI</button>
+                  </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </a>
+</header>
+
+  <main>
+    
+      <!-- chi siamo -->
+      <a name="chisiamo" >
+      <section>
+       
+      <div class="copertina">
+        <div class="chisiamo">
+        <div class="photo" data-aos="fade-right">
+          <img class="img" src="img/farmacista.jpg" alt="chi siamo"></div>
+
+          <div class="about" data-aos="fade-left">
+  <h1 class="titleg">CHI SIAMO</h1>
+  <P class="test ">La farmacista dott.ssa D'Anna mette a disposizione del cliente la sua esperienza da oltre 30 anni in ambito farmaccologiico , vaterinario, di automedicazione ecc... <br>
+  La nostra ParaFarmacia con sede a Trabia (PA), offre i suoi servizi dal 2016.
+Specializzata nel trattamento di farmaci veterinari, partenso dalpiù piccola al più grande amico a quattro zampe, prenderemo in carico il problema scegliendo la cura miglliore</P>
+      </div>
+    </div>
+
+  </div> 
+
+  </section>
+</a>
+<!-- sezione servizi -->
+
+    <section >
+      <a name="servizi">
+      <div class="imgservice" data-aos="flip-up" >
+        <img class="media" src="img/paraservice.png" alt="servizi">
+      </div>
+      <H1 class="title-sez" data-aos="fade-right"><b>NOSTRI SERVIZI</b> </H1> 
+      <hr class="sep" data-aos="fade-right">
+      <a name="su">
+    <div class="service">
+      
+     <a href="#ancora"> <button onclick="active1()" class="change" data-aos="flip-left" data-aos-duration="200"><h4 class="hover">SCOPRI DI PIÙ</h4><img class="b"src="img/consulenza.jpeg" > <h4 class="scritta">CONSULENZA<br> GRATUITA</h4>  </button></a>
+       <a href="#ancora"><button onclick="active2()" class="change" data-aos="flip-left" data-aos-duration="500"><H4 class="hover">SCOPRI DI PIÙ</h4> <img class="b" src="img/domicilio.jpg" ><h4  class="scritta">SERVIZIO A <br> DOMICOLIO <BR>GRATUITO</H4></button></a>
+       <a href="#ancora"><button onclick="active3()" class="change" data-aos="flip-left"data-aos-duration="800"><H4 class="hover">SCOPRI DI PIÙ</H4>  <img class="b" src="img/Pressione-minima-alta.jpg" ><h4 class="scritta">MISURAZIONE <br>PRESSIONE <BR> MAX/MIN</h4></button></a>
+       <a href="#ancora"><button onclick="active4()" class="change" data-aos="flip-left" data-aos-duration="1100"><H4 class="hover">SCOPRI DI PIÙ</H4>  <img class="b" src="img/Indice_Massa_Corporea-2.jpg" ><h4 class="scritta">VALUTAZIONE <br>MASSA<br> CORPOREA</h4></button></a>
+       <a href="#ancora"><button onclick="active5()" class="change" data-aos="flip-left" data-aos-duration="1400"><H4 class="hover">SCOPRI DI PIÙ</H4>  <img class="b" src="img/foratura_lobi-1558435159.jpg"><h4 class="scritta">FORATURA <br>LOBO <BR>AURICOLARE</h4></button></a>
+       </a>
+        <a name="ancora"><p></p></a>
+      </div>
+  
+     
+      <div id="pannello1"  class="animate__animated animate__fadeIn" data-aos="zoom-in-down">
+        <div class="photo1">
+          <img class="img1" src="img/consulenza.jpeg" alt="consulenza" width="400" height="250"></div>
+          <div class="about1">
+    <h1 class="titleg">CONSULENZA  GRATUITA</h1>
+    <P class="test">Con la nostra consulenza gratuita consigliamo il farmaco più adatto alle tue esigenze. <br>
+      Stai cercando un aiuto per te o un tuo animale? <br>
+      Noi sappiamo cosa consigliarti!</P>
+          <div class="arr"><button class="contact" class="bot">PRENOTA SERVIZIO</button>  
+       <a href="#su">  <img class="ic"src="img/freacciasu.png" alt="" width="50px">
+          <p class="left"> torna su</p></div> </a>
+  </div>
+    </div> 
+
+    <div id="pannello2"  class="animate__animated animate__fadeIn">
+      <div class="photo1">
+        <img class="img1" src="img/domicilio.jpg" alt="consulenza" width="400" height="250"></div>
+        <div class="about1">
+    <h1 class="titleg">SERVIZIO A DOMICILIO GRATUITO</h1>
+    <P class="test"> Con il nostro servizio a domicilio gratuito potrai ricevere i farmaci comodamente a casa tua.</P>
+          <div class="arr"><button class="contact" class="bot">PRENOTA SERVIZIO</button>  
+            <a href="#su">  <img class="ic"src="img/freacciasu.png" alt="" width="50px">
+               <p class="left"> torna su</p></div> </a>
+    </div>
+    </div>  
+
+  <div id="pannello3" class="animate__animated animate__fadeIn">
+    <div class="photo1">
+      <img class="img1" src="img/Pressione-minima-alta.jpg" alt="consulenza" width="400" height="250"></div>
+      <div class="about1">
+  <h1 class="titleg">MISURAZIONE PRESSIONE MAX MIN</h1>
+  <P class="test">Effettuiamo misurazione di pressione alteriosa max e min con strumentistica affidabile con risultato immediato.</P>
+        <div class="arr"><button class="contact" class="bot">PRENOTA SERVIZIO</button>  
+          <a href="#su">  <img class="ic"src="img/freacciasu.png" alt="" width="50px">
+             <p class="left"> torna su</p></div> </a>
+  </div>
+  </div>
+
+  <div id="pannello4"  class="animate__animated animate__fadeIn">
+    <div class="photo1">
+      <img class="img1" src="img/Indice_Massa_Corporea-2.jpg" alt="consulenza" width="400" height="250"></div>
+      <div class="about1">
+  <h1 class="titleg">VALUTAZIONE MASSA CORPOREA</h1>
+  <P class="test">.</P>
+        <div class="arr"><button class="contact" class="bot">PRENOTA SERVIZIO</button>  
+          <a href="#su">  <img class="ic"src="img/freacciasu.png" alt="" width="50px">
+             <p class="left"> torna su</p></div> </a>
+       
+  </div>
+  </div>
+
+  <div id="pannello5"  class="animate__animated animate__fadeIn">
+    <div class="photo1">
+      <img class="img1" src="img/foratura_lobi-1558435159.jpg" alt="consulenza" width="400" height="250"></div>
+      <div class="about1">
+  <h1 class="titleg">FORATURA LOBO AURICOLARE</h1>
+  <P class="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+        <div class="arr"><button class="contact" class="bot">PRENOTA SERVIZIO</button>  
+          <a href="#su">  <img class="ic"src="img/freacciasu.png" alt="" width="50px">
+             <p class="left"> torna su</p></div> </a>
+  </div>
+  </div>
+ </section> 
+</a>
+</div> 
+
+
+
+<!-- sezione prodotti -->
+<a name="prodotti">
+<section>
+  <div class="sez-prod">
+    <br><br>
+    <h1 class="title-sez1" data-aos="fade-right"><b> NOSTRI PRODOTTI</b></h1>
+ <hr class="sep" data-aos="fade-right"> 
+    <div class="prod">
+      <a href=""><button class="btn-prod" data-aos="flip-left" data-aos-duration="200"> <img class="img-prod"src="img/farmaci.png" ><HR class="none"><h4 class="tit-prod">FARMACI DA BANCO</h4> </button></a>
+      <a href=""><button class="btn-prod" data-aos="flip-left" data-aos-duration="500">  <img class="img-prod" src="img/noun-veterinary-4739036.png" ><HR class="none"><H4 class="tit-prod">FARMACI VETERINARI</H4></button></a>
+      <a href=""><button class="btn-prod" data-aos="flip-left" data-aos-duration="800"> <img class="img-prod" src="img/integratori.png" ><HR class="none"><br><H4 class="tit-prod">INTEGRATORI</H4></button></a>
+      <a href=""><button class="btn-prod" data-aos="flip-left" data-aos-duration="1100"> <img class="img-prod" src="img/natural.png"><HR class="none"><H4 class="tit-prod">OMEOPATIA & FITOTERAPIA</H4> </button></a>
+      <a href=""><button class="btn-prod" data-aos="flip-left" data-aos-duration="500"> <img class="img-prod" src="img/dermocosmesi-Recovered.png" ><HR class="none"><br><H4 class="tit-prod">DERMOCOSMESI</H4> </button></a>
+      <a href=""><button class="btn-prod" data-aos="flip-left" data-aos-duration="800"> <img class="img-prod" src="img/make up.png"><HR class="none"><br><H4 class="tit-prod">MAKE-UP</H4> </button></a>
+ </div>
+  </div>
+</section>
+</a>
+<!-- sezione contatti -->
+<a name="contatti">
+        <div class="contenitore sez-contact">
+          <section>
+        <H1 class="title-sez tit-contact" data-aos="fade-right"> CONTATTI</H1>
+        <hr class="sep" data-aos="fade-right">
+
+       <div class="k">
+        <div class="info" data-aos="fade-right">
+          <table>
+      <tr> <td class="icon"><img src="img/phone.png" alt="" width="50"></td><td> <h4> 091 8147725 </h4></td> </tr>
+       <tr><td class="icon"><a href="#ind"><img src="img/address.png" alt="" width="40"></a></td><td><a href="#ind"><h4 class="black">Via Cristoforo Colombo,9 <br> Trabia(PA), 90019</h4> </a></td></tr>
+      <tr> <td class="icon"><img src="img/mail.png" alt="" width="50"></td><td ><h4 >danna.parafarmacia@gmail<span>.com</span>   </h4></td></tr> 
+      <tr> <td class="icon"><img src="img/orologio.png" alt="" width="50"></td><td><h4>Dal Lunedì al Sabato <br> 9:00-13:00 / 16:00-20:00 <br> Domenica Chiuso!</h4></td></tr> 
+    </table>
+      </div>
+     
+     <!-- FORM -->
+          <div class="cont_fm" data-aos="fade-left">  
+         <form action=""> 
+         <label for="nome">
+        <p class="name">NOME* </p>
+          <input name="nome"  type="text" placeholder="Nome..." required>  </label>
+          <label for="cogn">
+            <p class="name">COGNOME*</p>
+              <input name="cogn"  type="text" placeholder="Cognome..." required>  </label>
+              <label for="drop">
+                <p class="name">SELEZIONA SERVIZIO</p>
+                 <select class="drop" name="service"> <br>
+                 <option value="service" name="service"> ...Seleziona il tuo servizio...</option>
+                 <option value="service1" name="service1">Servizio a Domicilio</option> </select></label>  
+        <label for="object">
+           <p class="name">OGETTO</p>
+         <input name="object" type="text" placeholder="Ogetto...">  </label>
+          <label for="mex"> 
+          <p class="name">E-MAIL*</p>
+          <input name="mex" type="text" placeholder="E-Mail..." required>  </label>     
+         <label for="tele">
+        <p class="name">TELEFONO</p>
+         <input name="tele" type="tel" placeholder="Telefono...">  </label>
+          <label for="tele">
+         <p class="name">INDIRIZZO*</p>
+        <input name="ind" type="text" placeholder="Indirizzo..." required>  </label>
+        <label for="write">
+          <p class="name">MESSAGGIO</p>
+  <textarea  class="drop" value="write" name="write" placeholder="Scrivi un messaggio qui..." ></textarea></label>
+</label>
+<label for="submit">
+<input type="submit" id="submit" value="INVIA" name="submit"></label>         
+            
+      </form>
+    </div>
+    
+
+      </div>
+      <a name="ind"></a>
+     <div id="maps" data-aos="fade-right"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.2240930041894!2d13.652818415154178!3d37.995233179719925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131750c15d9ef933%3A0x8cbc890dd7a84ba!2sPARAFARMACIA%20DOTT.SSA%20D&#39;ANNA%20F.!5e0!3m2!1sen!2sit!4v1670783008273!5m2!1sen!2sit"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+    </a>
+  </section>
+</a>
+</div>
+</div>
+<div class="foot">
+<footer>
+ 
+
+  
+</footer>
+  </main>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>
