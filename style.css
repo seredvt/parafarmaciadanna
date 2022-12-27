@@ -636,7 +636,7 @@ align-items: center;
 
 /* responsive */
 
-@media(max-width:1400px){
+@media(max-width:920px){
 
   html, body { overflow-x: hidden; }
 
