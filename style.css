@@ -224,15 +224,17 @@ box-shadow: 0 5px 20px rgba(0,0,0,0.5);}
  
 
 .titleg{
-padding-top: 20;
-    text-align: center;
+    text-align:center ;
+    padding-bottom: 20px;
     color: #87d724 ;
     text-shadow: 2px 2px 3px #333;
     font-size: 50px;
     font-weight: 700;
 }
 
-.test{color: black;
+.test{
+  display:flex;
+  color: black;
   padding: 30px;
   padding-top: 10;
 }
@@ -532,6 +534,9 @@ height: 90px;
 padding: 20px;
 } 
 /* form */
+.pink{color: #d30b8f;
+font-weight: 700;
+text-shadow: 2px 2px 3px #333;}
 .cont_fm{
   /* border: 1px solid blue; */
   /* display: block; */
